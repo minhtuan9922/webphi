@@ -1,19 +1,20 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #666;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 20px;
 	width: 100%;
+    padding-top: 54px;
 }
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
 	color: #444;
 }
-/* default font size */
+ default font size 
 .fa {
 	font-size: 14px;
 }
-/* Override the bootstrap defaults */
+ Override the bootstrap defaults 
 h1 {
 	font-size: 33px;
 }
@@ -31,13 +32,14 @@ h5 {
 }
 h6 {
 	font-size: 10.2px;
-}
+}*/
 a {
 	color: #23a1d1;
 }
 a:hover {
 	text-decoration: none;
 }
+/*
 legend {
 	font-size: 18px;
 	padding: 7px 0px
@@ -56,10 +58,13 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 	font-size: 12px;
 	height: 30px;
 }
+*/
 /* Fix some bootstrap issues */
+/*
 span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	display: inline;
 }
+*/
 
 .nav-tabs {
 	margin-bottom: 15px;
@@ -77,6 +82,11 @@ div.required .control-label:before {
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
 }
+/* header */
+header {
+    background-color: #145666;
+}
+/* end header */
 /* top */
 #top {
 	background-color: #EEEEEE;
@@ -127,6 +137,10 @@ div.required .control-label:before {
 /* logo */
 #logo {
 	margin: 0 0 10px 0;
+    display: inline-block;
+}
+#logo a {
+    color: #FFFFFF;
 }
 /* search */
 #search {
@@ -136,21 +150,25 @@ div.required .control-label:before {
 	height: 40px;
 	line-height: 20px;
 	padding: 0 10px;
+    border-radius: 0;
 }
 #search .btn-lg {
 	font-size: 15px;
 	line-height: 18px;
-	padding: 10px 35px;
-	text-shadow: 0 1px 0 #FFF;
+    border-radius: 0;
+    padding: 10px 15px;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
 /* cart */
 #cart {
-	margin-bottom: 10px;
+/*	margin-bottom: 10px;*/
 }
 #cart > .btn {
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 18px;
 	color: #FFF;
+    background-color: #145666;
 }
 #cart.open > .btn {
 	background-image: none;
@@ -225,6 +243,7 @@ div.required .control-label:before {
 	line-height: 20px;
 	color: #333333;
 	font-size: 12px;
+    z-index: 11;
 }
 #menu .dropdown-inner li a:hover {
 	color: #FFFFFF;
@@ -269,6 +288,18 @@ div.required .control-label:before {
 #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
 	color: #ffffff;
 	background-color: #229ac8;
+}
+#menu .main-catalog {
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    padding: 15px;
+    z-index: 10;
+    border: 1px solid #CDCDCD;
+    background-color: #FFFFFF;
+}
+#menu .main-catalog .dropdown-menu {
+    
 }
 @media (min-width: 768px) {
 	#menu .dropdown:hover .dropdown-menu {
@@ -375,6 +406,7 @@ footer h5 {
 	margin: 0;
 }
 /* buttons */
+/*
 .buttons {
 	margin: 1em 0;
 }
@@ -495,6 +527,7 @@ footer h5 {
 	background-color: #222222;
 	background-image: linear-gradient(to bottom, #333333, #111111);
 }
+*/
 /* list group */
 .list-group a {
 	border: 1px solid #DDDDDD;
@@ -743,4 +776,11 @@ h2.price {
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
     background-image: none;
     background-color: #df5c39;
+}
+.btn-menu {
+    background-color: transparent;
+    color: #FFFFFF;    
+}
+.nav-bg {
+    background-color: #145666;
 }

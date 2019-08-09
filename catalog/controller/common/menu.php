@@ -40,6 +40,9 @@ class ControllerCommonMenu extends Controller {
 				);
 			}
 		}
+        
+        $data['home'] = $this->url->link('common/home', '', true);
+        $data['special'] = $this->url->link('product/special', '', true);
 
 		return $this->load->view('common/menu', $data);
 	}
