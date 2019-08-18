@@ -241,3 +241,34 @@
 2019-08-17 17:50:07 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\webphi\catalog\controller\extension\d_blog_module\post.php on line 545
 2019-08-17 17:50:07 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\webphi\catalog\controller\extension\d_blog_module\post.php on line 545
 2019-08-17 17:50:07 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\webphi\catalog\controller\extension\d_blog_module\post.php on line 545
+2019-08-18 2:25:59 - PHP Notice:  Undefined index: post in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 576
+2019-08-18 2:36:48 - PHP Notice:  Undefined index: title in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 435
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: styles in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 453
+2019-08-18 2:36:48 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 453
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: scripts in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 457
+2019-08-18 2:36:48 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 457
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 479
+2019-08-18 2:36:48 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 479
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 488
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 488
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 488
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 488
+2019-08-18 2:36:48 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 488
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: styles in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 451
+2019-08-18 2:37:20 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 451
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: scripts in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 455
+2019-08-18 2:37:20 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 455
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 477
+2019-08-18 2:37:20 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 477
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 486
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 486
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 486
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 486
+2019-08-18 2:37:20 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 486
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 461
+2019-08-18 2:38:00 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 461
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 470
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 470
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 470
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 470
+2019-08-18 2:38:00 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\webphi\catalog\controller\common\home.php on line 470

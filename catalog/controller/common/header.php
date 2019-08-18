@@ -109,6 +109,7 @@ class ControllerCommonHeader extends Controller {
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
         $data['special'] = $this->url->link('product/special', '', true);
+        $data['news'] = $this->url->link('extension/d_blog_module/category', '', true);
 		
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');

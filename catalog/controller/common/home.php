@@ -1,5 +1,48 @@
 <?php
 class ControllerCommonHome extends Controller {
+    private $id = 'd_blog_module';
+    private $route = 'extension/d_blog_module/category';
+    private $sub_versions = array('lite', 'light', 'free');
+    private $mbooth = '';
+    private $prefix = '';
+    private $config_file = '';
+    private $error = array();
+    private $debug = false;
+    private $setting = array();
+
+    public function __construct($registry)
+    {
+        parent::__construct($registry);
+        if (!isset($this->user)) {
+            if (VERSION >= '2.2.0.0') {
+                $this->user = new Cart\User($registry);
+            } else {
+                $this->user = new User($registry);
+            }
+
+            $this->load->model('extension/d_opencart_patch/load');
+//            $this->theme = $this->config->get($this->config->get('config_theme') . '_directory');
+        }
+        //fix theme detection
+		if (VERSION >= '3.0.0.0') {
+			$this->theme = $this->config->get('theme_' . $this->config->get('config_theme') . '_directory');
+		} elseif (VERSION >= '2.2.0.0') {
+			$this->theme = $this->config->get($this->config->get('config_theme') . '_directory');
+		} else {
+			$this->theme = $this->config->get('config_template');
+		}
+		
+        $this->load->language('extension/d_blog_module/category');
+
+        $this->load->model('extension/module/d_blog_module');
+        $this->load->model('extension/d_blog_module/category');
+        $this->load->model('extension/d_blog_module/post');
+        $this->load->model('tool/image');
+
+        $this->session->data['d_blog_module_debug'] = $this->config->get('d_blog_module_debug');
+        $this->config_file = $this->model_extension_module_d_blog_module->getConfigFile($this->id, $this->sub_versions);
+        $this->setting = $this->model_extension_module_d_blog_module->getConfigData($this->id, $this->id . '_setting', $this->config->get('config_store_id'), $this->config_file);
+    }
 	public function index() {
 		$this->document->setTitle($this->config->get('config_meta_title'));
 		$this->document->setDescription($this->config->get('config_meta_description'));
@@ -381,6 +424,52 @@ class ControllerCommonHome extends Controller {
 //			$this->response->setOutput($this->load->view('product/category', $data));
 		}
         
+        //blog
+        
+        $page = 1;
+
+        $category_id = $this->setting['category']['main_category_id'];
+
+        $data['category_id'] = $category_id;
+
+        $data['description'] = html_entity_decode($category_info['description'], ENT_QUOTES, 'UTF-8');
+        $data['text_categories'] = $this->language->get('text_categories');
+        $data['text_tags'] = $this->language->get('text_tags');
+        $data['text_empty'] = $this->language->get('text_empty');
+        $data['text_views'] = $this->language->get('text_views');
+        $data['text_review'] = $this->language->get('text_review');
+        $data['text_read_more'] = $this->language->get('text_read_more');
+        $data['button_continue'] = $this->language->get('button_continue');
+        $data['continue'] = $this->url->link('common/home', '', 'SSL');
+        
+        //posts
+        $limit = 5;
+        $data['posts'] = array();
+        if ($category_id == $this->setting['category']['main_category_id']) {
+            $filter_data = array('limit' => $limit, 'start' => ($page - 1) * $limit,);
+        } else {
+            $filter_data = array('filter_category_id' => $category_id, 'limit' => $limit, 'start' => ($page - 1) * $limit,);
+        }
+        $post_total = $this->model_extension_d_blog_module_post->getTotalPosts($filter_data);
+        $posts = $this->model_extension_d_blog_module_post->getPosts($filter_data);
+
+        $new_row = false;
+        if ($posts) {
+            $post_thumb = $this->setting['post_thumb'];
+            $data['post_thumb'] = $post_thumb;
+
+
+            foreach ($posts as $post) {
+
+                $data['posts'][] = array(
+                    'post'      => $this->load->controller('extension/d_blog_module/post/thumb', $post['post_id']),
+                    'animate'   => $this->setting['post_thumb']['animate'],
+                );
+            }
+        }
+        $data['limit_post'] = count($posts);
+        
+        $data['news'] = $this->url->link('extension/d_blog_module/category', '', true);
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');
 //		$data['content_top'] = $this->load->controller('common/content_top');

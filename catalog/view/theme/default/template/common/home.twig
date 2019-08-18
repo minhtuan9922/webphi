@@ -290,6 +290,42 @@
                         <span>Tin tức - sự kiện</span>
                     </div>
                 </div>
+                <div class="spacer10"></div>
+                {% if posts %}
+                {% for key, post in posts %}
+                {% if key == 0 %}
+                <div class="col-md-6">
+                    <div class="box-news">
+                        <a href="{{ post.post.href }}">
+                            <img src="{{ post.post.thumb }}" class="img-fluid" alt="{{ post.post.image_alt }}" title="{{ post.post.image_title }}">
+                        </a>
+                        <div class="spacer10"></div>
+                        <a href="{{ post.post.href }}"><h5>{{ post.post.title }}</h5></a>
+                        <p class="author"><a href="{{ post.post.author_link }}">{{ post.post.author }}</a> - <span>{{ post.post.date_published }}</span></p>
+                        <p>{{ post.post.short_description }}</p>
+                    </div>
+                </div>
+                {% else %}
+                {% if key == 1 %}
+                <div class="col-md-6">{% endif %}
+                    <div class="row row-cus-10">
+                        <div class="col-3 col-cus-10">
+                            <a href="{{ post.post.href }}">
+                                <img src="{{ post.post.thumb }}" class="img-fluid" alt="{{ post.post.image_alt }}" title="{{ post.post.image_title }}">
+                            </a>
+                        </div>
+                        <div class="col-9 col-cus-10">
+                            <a href="{{ post.post.href }}"><h5>{{ post.post.title }}</h5></a>
+                            <p class="author"><a href="{{ post.post.author_link }}">{{ post.post.author }}</a> - <span>{{ post.post.date_published }}</span></p>
+                            <p>{{ post.post.short_description }}</p>
+                        </div>
+                    </div>
+                {% if key == limit_post - 1 %}
+                </div>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
         {{ column_right }} 
