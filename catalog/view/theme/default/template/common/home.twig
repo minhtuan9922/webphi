@@ -12,13 +12,13 @@
         <div id="content" class="{{ class }}"> {{ content_top }}
             {{ content_bottom }} 
             <div class="row row-cus">
-                <div class="col-md-3 col-cus">
+                <div class="col-lg-3 col-cus d-none d-lg-block">
                 {% if categories %}
                     <ul class="menu-home">
                         {% for category in categories %}
                         {% if category.children %}
                         <li class="menu-item">
-                            <a href="{{ category.href }}" class="menu-sub">{{ category.name }}</a>
+                            <a href="{{ category.href }}" class="menu-sub"><img src="{{ category.image }}" alt=""> {{ category.name }}</a>
                             <div class="menu-sub-group">
                                 <div class="sub-group"> 
                                     {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
@@ -33,13 +33,13 @@
                             </div>
                         </li>
                         {% else %}
-                        <li class="menu-item"><a href="{{ category.href }}">{{ category.name }}</a></li>
+                        <li class="menu-item"><a href="{{ category.href }}"><img src="{{ category.image }}" alt=""> {{ category.name }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
                 {% endif %}
                 </div>
-                <div class="col-md-6 col-cus">
+                <div class="col-lg-6 col-cus">
                     <div id="demo" class="carousel slide" data-ride="carousel"> 
                         <!-- Indicators -->
                         <ul class="carousel-indicators">
@@ -56,9 +56,9 @@
                             {% for key, item in banners %}
                             <div class="carousel-item {% if key == '0' %}active{% endif %}"> 
                                 {% if item.link %}
-                                <a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.title }}"> </a>
+                                <a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.title }}" class="img-fluid"></a>
                                 {% else %}
-                                <img src="{{ item.image }}" alt="{{ item.title }}"> 
+                                <img src="{{ item.image }}" alt="{{ item.title }}" class="img-fluid"> 
                                 {% endif %}
                             </div>
                             {% endfor %}
@@ -69,7 +69,7 @@
                         <a class="carousel-control-prev" href="#demo" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> 
                     </div>
                 </div>
-                <div class="col-md-3 col-cus">
+                <div class="col-lg-3 col-cus">
                     <div class="box-shipping">
                         <div class="box-head text-center">
                             THÔNG TIN GIAO NHẬN

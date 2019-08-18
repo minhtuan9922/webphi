@@ -60,6 +60,7 @@ class ControllerCommonHeader extends Controller {
 		$this->load->model('catalog/category');
 
 		$this->load->model('catalog/product');
+        $this->load->model('tool/image');
 
 		$data['categories'] = array();
 
@@ -89,7 +90,8 @@ class ControllerCommonHeader extends Controller {
 					'name'     => $category['name'],
 					'children' => $children_data,
 					'column'   => $category['column'] ? $category['column'] : 1,
-					'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
+					'href'     => $this->url->link('product/category', 'path=' . $category['category_id']),
+                    'image'    => $this->model_tool_image->resize($category['image'], 20, 20),
 				);
 			}
 		}

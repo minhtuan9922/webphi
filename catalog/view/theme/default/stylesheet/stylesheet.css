@@ -600,7 +600,6 @@ footer h5 {
 }
 @media (max-width: 1200px) {
 .product-grid .product-thumb .caption {
-	min-height: 210px;
 	padding: 0 10px;
 }
 }
@@ -719,7 +718,7 @@ h2.price {
 	border: 1px solid #ddd;
 }
 .image-additional {
-	max-width: 78px;
+/*	max-width: 78px;*/
 }
 .thumbnails .image-additional {
 	float: left;
@@ -797,13 +796,26 @@ h2.price {
     padding: 0;
     position: relative;
     background-color: #FFFFFF;
+    height: 100%;
 }
 .menu-home .menu-item {
     list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu-home .menu-sub::after {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
 }
 .menu-home .menu-item a {
-    padding: 8px 15px;
+    padding: 8px 0px;
     display: block;
+    border-bottom: 1px solid #efefef;
+    position: relative;
 }
 .menu-home .list-sub {
     margin: 0;
@@ -818,7 +830,11 @@ h2.price {
     left: calc(100%);
     background-color: #FFFFFF;
     width: 100%;
+    z-index: 100;
     display: none;
+    border: 1px solid #efefef;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .menu-home .menu-item:hover .menu-sub-group {
     display: block;
@@ -965,4 +981,8 @@ h2.price {
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.input-group-addon {
+    margin-bottom: 0;
+    line-height: 31px;
 }
