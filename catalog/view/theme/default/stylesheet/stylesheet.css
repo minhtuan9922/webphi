@@ -6,6 +6,7 @@ body {
 	line-height: 20px;
 	width: 100%;
     padding-top: 54px;
+    background-color: #f5f5f5;
 }
 /*h1, h2, h3, h4, h5, h6 {
 	color: #444;
@@ -558,6 +559,11 @@ footer h5 {
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 	overflow: auto;
+    background-color: #FFFFFF;
+    height: calc(100% - 20px);
+}
+.product-thumb:hover {
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.20);
 }
 .product-thumb .image {
 	text-align: center;
@@ -583,10 +589,11 @@ footer h5 {
 }
 .product-thumb h4 {
 	font-weight: bold;
+    font-size: 16px;
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
+/*	min-height: 124px;*/
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -632,6 +639,7 @@ h2.price {
 }
 .product-thumb .price-new {
 	font-weight: 600;
+    color: #FF0000;
 }
 .product-thumb .price-old {
 	color: #999;
@@ -783,4 +791,178 @@ h2.price {
 }
 .nav-bg {
     background-color: #145666;
+}
+.menu-home {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.menu-home .menu-item {
+    list-style: none;
+}
+.menu-home .menu-item a {
+    padding: 8px 15px;
+    display: block;
+}
+.menu-home .list-sub {
+    margin: 0;
+    padding: 0;
+}
+.menu-home .list-sub li {
+    list-style: none;
+}
+.menu-home .menu-sub-group {
+    position: absolute;
+    top: 0;
+    left: calc(100%);
+    background-color: #FFFFFF;
+    width: 100%;
+    display: none;
+}
+.menu-home .menu-item:hover .menu-sub-group {
+    display: block;
+}
+#common-home .box-shipping {
+    background-color: #FFFFFF;
+}
+#common-home .box-head {
+    background-color: #0f255e;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#common-home .box-content {
+    padding: 15px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+}
+#common-home .box-content img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+}
+#common-home .box-content p {
+    margin-bottom: 5px;
+}
+#common-home .box-content h5 {
+    margin-bottom: 0px;
+}
+#common-home .btn-detail {
+    background-color: #0f255e;
+    color: #FFFFFF;
+    border-radius: 0;
+}
+.col-cus {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row-cus {
+    margin-left: 0;
+    margin-right: 0;
+}
+.col-cus-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row-cus-5 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.spacer10 {
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+.spacer15 {
+	width: 100%;
+	height: 15px;
+	clear: both;
+}
+.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+}
+.spacer25 {
+	width: 100%;
+	height: 25px;
+	clear: both;
+}
+.spacer30 {
+	width: 100%;
+	height: 30px;
+	clear: both;
+}
+.spacer35 {
+	width: 100%;
+	height: 35px;
+	clear: both;
+}
+.spacer40 {
+	width: 100%;
+	height: 40px;
+	clear: both;
+}
+.spacer45 {
+	width: 100%;
+	height: 45px;
+	clear: both;
+}
+.spacer50 {
+	width: 100%;
+	height: 50px;
+	clear: both;
+}
+#common-home .trademark {
+    background-color: #FFFFFF;
+    position: relative;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+#common-home .trademark:hover {
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.18);
+}
+#common-home .trademark .img-ab {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    width: 54px;
+    height: 54px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.18);
+}
+#common-home .box-category {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#common-home .category-item {
+    flex-grow: 1;
+    min-width: 160px;
+    max-width: 300px;
+    border: 1px solid #e2e2e2;
+    background-color: #FFFFFF;
+    padding: 10px 10px 0 10px;
+}
+#common-home .category-item:hover {
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.18);
+    position: relative;
+    z-index: 1;
+}
+#common-home .category-item img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+#common-home .title-news {
+    border-bottom: 2px solid #f9c100;
+    display: block;
+}
+#common-home .title-news span {
+    background-color: #f9c100;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
