@@ -18,7 +18,7 @@
                         {% for category in categories %}
                         {% if category.children %}
                         <li class="menu-item">
-                            <a href="{{ category.href }}" class="menu-sub"><img src="{{ category.image }}" alt=""> {{ category.name }}</a>
+                            <a href="{{ category.href }}" class="menu-sub"><img src="{{ category.image }}" alt="" width="20px" height="20px"> {{ category.name }}</a>
                             <div class="menu-sub-group">
                                 <div class="sub-group"> 
                                     {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
@@ -33,7 +33,7 @@
                             </div>
                         </li>
                         {% else %}
-                        <li class="menu-item"><a href="{{ category.href }}"><img src="{{ category.image }}" alt=""> {{ category.name }}</a></li>
+                        <li class="menu-item"><a href="{{ category.href }}"><img src="{{ category.image }}" alt="" width="20px" height="20px"> {{ category.name }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -170,66 +170,16 @@
                 </div>
                 <div class="col-sm-12">
                     <div class="box-category">
+                        {% if categories %}
+                        {% for category in categories %}
                         <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
+                            <a href="{{ category.href }}">    
+                                <img src="{{ category.image }}">
+                                <p>{{ category.name }}</p>
                             </a>
                         </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
-                        <div class="category-item text-center">
-                            <a href="#">    
-                                <img src="image/img-cate-1_medium (1).jpg">
-                                <p>Tên danh mục</p>
-                            </a>
-                        </div>
+                        {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -280,7 +230,7 @@
                 </div>
                 {% endfor %} 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn btn-success">Xem thêm</a>
+                    <a href="{{ continue_product }}" class="btn btn-success">Xem thêm</a>
                 </div> 
             </div>
             <div class="spacer30"></div>

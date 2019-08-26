@@ -86,7 +86,7 @@ class ControllerCommonHome extends Controller {
 					'children' => $children_data,
 					'column'   => $category['column'] ? $category['column'] : 1,
 					'href'     => $this->url->link('product/category', 'path=' . $category['category_id']),
-                    'image'    => $this->model_tool_image->resize($category['image'], 20, 20),
+                    'image'    => $this->model_tool_image->resize($category['image'], 80, 80),
 				);
 			}
 		}
@@ -149,9 +149,9 @@ class ControllerCommonHome extends Controller {
 			$limit = $this->config->get('theme_' . $this->config->get('config_theme') . '_product_limit');
 		}
         
-        $path = 20;
-        $category_info = $this->model_catalog_category->getCategory(20);
-
+        $path = 60;
+        $category_info = $this->model_catalog_category->getCategory(60);
+        
 		if ($category_info) {
 //			$this->document->setTitle($category_info['meta_title']);
 //			$this->document->setDescription($category_info['meta_description']);
@@ -211,7 +211,7 @@ class ControllerCommonHome extends Controller {
 //			}
 
 			$data['products'] = array();
-            $category_id = 0;
+            $category_id = 60;
 			$filter_data = array(
 				'filter_category_id' => $category_id,
 				'filter_filter'      => $filter,
@@ -413,7 +413,7 @@ class ControllerCommonHome extends Controller {
 			$data['order'] = $order;
 			$data['limit'] = $limit;
 
-			$data['continue'] = $this->url->link('common/home');
+			$data['continue_product'] = $this->url->link('product/category&path=60');
 
 //			$data['column_left'] = $this->load->controller('common/column_left');
 //			$data['column_right'] = $this->load->controller('common/column_right');
@@ -433,15 +433,15 @@ class ControllerCommonHome extends Controller {
 
         $data['category_id'] = $category_id;
 
-        $data['description'] = html_entity_decode($category_info['description'], ENT_QUOTES, 'UTF-8');
-        $data['text_categories'] = $this->language->get('text_categories');
-        $data['text_tags'] = $this->language->get('text_tags');
-        $data['text_empty'] = $this->language->get('text_empty');
-        $data['text_views'] = $this->language->get('text_views');
-        $data['text_review'] = $this->language->get('text_review');
-        $data['text_read_more'] = $this->language->get('text_read_more');
-        $data['button_continue'] = $this->language->get('button_continue');
-        $data['continue'] = $this->url->link('common/home', '', 'SSL');
+//        $data['description'] = html_entity_decode($category_info['description'], ENT_QUOTES, 'UTF-8');
+//        $data['text_categories'] = $this->language->get('text_categories');
+//        $data['text_tags'] = $this->language->get('text_tags');
+//        $data['text_empty'] = $this->language->get('text_empty');
+//        $data['text_views'] = $this->language->get('text_views');
+//        $data['text_review'] = $this->language->get('text_review');
+//        $data['text_read_more'] = $this->language->get('text_read_more');
+//        $data['button_continue'] = $this->language->get('button_continue');
+        $data['continue_news'] = $this->url->link('extension/d_blog_module/category', '', 'SSL');
         
         //posts
         $limit = 5;
