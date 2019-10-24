@@ -161,7 +161,9 @@ var cart = {
 
 					// Need to set timeout otherwise it wont update the total
 					setTimeout(function () {
-						$('#cart > a').html('<i class="fa fa-shopping-cart"></i><span id="cart-total"> ' + json['total'] + '</span>');
+						// $('#cart > a').html('<i class="fa fa-shopping-cart"></i><span id="cart-total"> ' + json['total'] + '</span>');
+						$('#cart-total').html(json['total']);
+						
 					}, 100);
 
 					$('html, body').animate({ scrollTop: 0 }, 'slow');

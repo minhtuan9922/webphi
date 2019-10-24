@@ -110,12 +110,19 @@
                     {{ search }}
                     <ul class="navbar-nav ml-auto">
                         {{ cart }}
-                        <li class="nav-item">
+                        <li class="nav-item nav-account">
+                            <img src="image/user.png" alt="">
+                            <div class="group-accout">
+                                <p><a href="{{ login }}">Đăng nhập</a> | <a href="{{ register }}">Đăng ký</a></p>
+                                <p>Tài khoản</p>
+                            </div>
+                        </li>
+                        {# <li class="nav-item">
                             <a class="nav-link" href="{{ login }}">Đăng nhập</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ register }}">Đăng ký</a>
-                        </li>
+                        </li> #}
                     </ul>
                 </div>
             </div>
