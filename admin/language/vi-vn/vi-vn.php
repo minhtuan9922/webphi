@@ -330,7 +330,7 @@ $_['tab_sale']                = 'Quản lý bán hàng';
 
 $_['tab_server']              = 'Máy Chủ';
 
-$_['tab_seo']                       = 'SEO';
+$_['tab_seo']                 = 'SEO';
 
 $_['tab_store']               = 'Cửa hàng';
 

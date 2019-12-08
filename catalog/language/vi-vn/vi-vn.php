@@ -139,4 +139,9 @@ $_['error_upload_7']        = 'Cảnh báo: Không thể ghi tập tin lên đĩ
 $_['error_upload_8']        = 'Cảnh báo: File tải lên bị buộc phải dừng bởi extension!';
 
 $_['error_upload_999']      = 'Cảnh báo: Không có mã lỗi!';
+$_['category_blogs_title']  = 'Danh mục blog';
+$_['latest_blogs_title']  	= 'Bài viết mới nhất';
+$_['my_account_title']  	= 'Tài khoản';
+$_['text_login']  	= 'Đăng nhập';
+$_['text_account']  	= 'Tài khoản của tôi';
 

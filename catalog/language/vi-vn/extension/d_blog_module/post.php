@@ -1,23 +1,23 @@
 <?php
 // Text
-$_['text_search']              = 'Tìm kiếm';
+$_['text_search']              = 'Search';
 
 
-$_['text_posted_by']           = 'Đăng bởi';
-$_['text_anonymous']           = 'Ẩn danh';
-$_['text_on']                  = 'trên';
-$_['text_edit']                = 'Chỉnh sửa';
+$_['text_posted_by']           = 'Người viết: ';
+$_['text_anonymous']           = 'Anonymous';
+$_['text_on']                  = ' lúc';
+$_['text_edit']                = 'Edit';
 
-$_['text_tags']                = 'Nhãn:';
-$_['text_error']               = 'Không tìm thấy bài đăng!';
-$_['text_payment_recurring']   = 'Hồ sơ thanh toán';
-$_['text_day']                 = 'ngày';
-$_['text_week']                = 'tuần';
-$_['text_semi_month']          = 'nữa tháng';
-$_['text_month']               = 'tháng';
-$_['text_year']                = 'năm';
-$_['text_restricted_access']   = 'Truy cập bị hạn chế';
-$_['text_login']			   = 'Vui lòng <a href="index.php?route=account/login">đăng nhập</a> để nhận quyền truy cập vào nội dung này';
-$_['text_contact_admin']       = 'Vui lòng <a href="index.php?route=information/contact">liên hệ</a> quản trị viên để nhận quyền truy cập vào nội dung này';
-$_['restrict_access_label_group']       = 'Chỉ truy cập cho thành viên của nhóm %';
-$_['restrict_access_label_user']       = 'Chỉ truy cập cho người dùng được phép';
+$_['text_tags']                = 'Tags:';
+$_['text_error']               = 'Bài viết không tìm thấy!';
+$_['text_payment_recurring']   = 'Payment Profile';
+$_['text_day']                 = 'day';
+$_['text_week']                = 'week';
+$_['text_semi_month']          = 'half-month';
+$_['text_month']               = 'month';
+$_['text_year']                = 'year';
+$_['text_restricted_access']   = 'Restricted access';
+$_['text_login']			   = 'Please <a href="index.php?route=account/login">login</a> to receive access to this content';
+$_['text_contact_admin']       = 'Please <a href="index.php?route=information/contact">contact</a> the site administrator to receive access to this content';
+$_['restrict_access_label_group']       = 'Access only for member of group %';
+$_['restrict_access_label_user']       = 'Access only for permited users';

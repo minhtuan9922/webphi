@@ -11,7 +11,7 @@ define('HTTPS_CATALOG', 'http://localhost/webphi/');
 define('DIR_APPLICATION', 'C:/xampp/htdocs/webphi/admin/');
 define('DIR_SYSTEM', 'C:/xampp/htdocs/webphi/system/');
 define('DIR_IMAGE', 'C:/xampp/htdocs/webphi/image/');
-define('DIR_STORAGE', 'C:/xampp/htdocs/webphi/storage/');
+define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_CATALOG', 'C:/xampp/htdocs/webphi/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
@@ -28,9 +28,9 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_DATABASE', 'webphi');
+define('DB_DATABASE', 'webbanhang');
 define('DB_PORT', '3306');
-define('DB_PREFIX', 'mt_');
+define('DB_PREFIX', 'oc_');
 
 // OpenCart API
 define('OPENCART_SERVER', 'https://www.opencart.com/');

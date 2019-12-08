@@ -1,13 +1,28 @@
-<div class="list-group">
-  {% if not logged %}
-  <a href="{{ login }}" class="list-group-item">{{ text_login }}</a> <a href="{{ register }}" class="list-group-item">{{ text_register }}</a> <a href="{{ forgotten }}" class="list-group-item">{{ text_forgotten }}</a>
-  {% endif %}
-  <a href="{{ account }}" class="list-group-item">{{ text_account }}</a>
-  {% if logged %}
-  <a href="{{ edit }}" class="list-group-item">{{ text_edit }}</a> <a href="{{ password }}" class="list-group-item">{{ text_password }}</a>
-  {% endif %}
-  <a href="{{ address }}" class="list-group-item">{{ text_address }}</a> <a href="{{ wishlist }}" class="list-group-item">{{ text_wishlist }}</a> <a href="{{ order }}" class="list-group-item">{{ text_order }}</a> <a href="{{ download }}" class="list-group-item">{{ text_download }}</a><a href="{{ recurring }}" class="list-group-item">{{ text_recurring }}</a> <a href="{{ reward }}" class="list-group-item">{{ text_reward }}</a> <a href="{{ return }}" class="list-group-item">{{ text_return }}</a> <a href="{{ transaction }}" class="list-group-item">{{ text_transaction }}</a> <a href="{{ newsletter }}" class="list-group-item">{{ text_newsletter }}</a>
-  {% if logged %}
-  <a href="{{ logout }}" class="list-group-item">{{ text_logout }}</a>
-  {% endif %}
+<div class="menu-blog slidebar-menu-blog">
+  <div class="group-menu">
+    <div class="sidebarblog-title title_block">
+      <h2>{{my_account_title}}</h2>
+    </div>
+    <div class="layered layered-category">
+      <div class="layered-content">
+        <ul class="tree-menu">
+            {% if not logged %}
+            <li><a href="{{ login }}" >{{ text_login }}</a></li>
+            <li><a href="{{ register }}" >{{ text_register }}</a> </li>
+            <li><a href="{{ forgotten }}" >{{ text_forgotten }}</a></li>
+            {% endif %}
+            <li><a href="{{ account }}" >{{ text_account }}</a></li>
+            {% if logged %}
+            <li><a href="{{ edit }}" >{{ text_edit }}</a></li> 
+            <li><a href="{{ password }}" >{{ text_password }}</a></li>
+            {% endif %}
+            <li><a href="{{ address }}" >{{ text_address }}</a> </li>
+            <li><a href="{{ order }}" >{{ text_order }}</a> </li>
+            {% if logged %}
+            <li><a href="{{ logout }}" >{{ text_logout }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>

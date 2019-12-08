@@ -14,7 +14,11 @@
 
 .bm .h1,
 .bm h1 {
-  font-size: 36px; }
+  font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 0;
+ }
 
 .bm .h2,
 .bm h2 {
@@ -75,13 +79,18 @@
 
 .bm .bm-post-info .category {
   margin: 0px;
-  margin-top: 10px;
+  margin-top: 0;
   padding: 0px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 10px;
+}
 
 .bm .bm-post-info .title {
   text-align: left;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; 
+  font-size: 24px;
+  font-weight: 500;
+}
 
 .bm .bm-post-info .title-divider {
   width: 100%;
@@ -91,7 +100,7 @@
   margin-bottom: 30px; }
 
 .bm .bm-post-info .title-information {
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
   .bm .bm-post-info .title-information .rating {
     display: inline-block;
     float: right;
@@ -100,12 +109,21 @@
   .bm .bm-post-info .title-information .details {
     display: inline-block;
     text-align: left;
-    width: 50%;
-    font-size: 16px;
+    width: 100%;
+    font-size: 13px;
     font-weight: 300;
-    color: #919191; }
+    color: #252a2b; }
+.bm .bm-post-info .title-information .details  .author,
+.bm .bm-post-info .title-information .details  .date_published,
+.bm .bm-post-info .title-information .details  .category{
+  width: auto;
+  float: left;
+}
+.bm .bm-post-info .title-information .details  .date_published{
+  margin-left: 10px;
+}
     .bm .bm-post-info .title-information .details a {
-      color: #23a1d1; }
+      color: #252a2b; }
 
 .bm .bm-post-info .image {
   margin-bottom: 20px; }
@@ -215,20 +233,32 @@
   .bm .post-thumb .post-thumb-heading .title {
     text-align: left;
     margin: 0px;
-    margin-top: 10px;
     padding: 0px;
     font-size: 15px; }
     .bm .post-thumb .post-thumb-heading .title a {
       color: #666; }
   .bm .post-thumb .post-thumb-heading .title-divider {
     display: none; }
-
+.bm .post-thumb .post-thumb-body  .blog-post-meta{
+  margin-bottom: 10px;
+   color: #919191;
+   font-size: 12px;
+}
+.blog-category .bm-pagination{
+  margin-top: 20px;
+}
+.blog-category .bm-grid-item{
+  margin-bottom: 25px;
+}
+.post-thumb-body  .blog-post-meta .date-published{
+  margin-left: 10px;
+}
 .bm .post-thumb .post-thumb-body .short-description {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
   font-weight: 300;
-  color: #919191;
-  margin-bottom: 20px; }
+ 
+  margin-bottom: 10px; }
 
 .bm .post-thumb .post-thumb-footer {
   padding-bottom: 45px; }

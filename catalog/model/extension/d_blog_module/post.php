@@ -330,5 +330,30 @@ class ModelExtensionDBlogModulePost extends Model
             }
         }
     }
+    public function getLatestPosts($data = array())
+    {
+        $sql = "SELECT p.post_id, p.user_id,p.limit_access_user,p.limit_users,p.limit_access_user_group,p.limit_user_groups,p.user_id, p.image,p.image_title,p.image_alt, p.images_review, pd.tag, pd.title, pd.meta_title, p.date_added, p.date_modified, p.date_published, p.review_display, p.viewed,   "
+            . "pd.short_description "
+            . "FROM " . DB_PREFIX . "bm_post AS p "
+            . "LEFT JOIN " . DB_PREFIX . "bm_post_description AS pd "
+            . "ON (p.post_id = pd.post_id) "
+            . "WHERE p.status = '1' "
+            . "AND pd.language_id = '" . (int)$this->config->get('config_language_id') . "' ";
+        $sql .= "GROUP BY p.post_id ";
+        $sql .= " ORDER BY p.date_published  DESC";
+
+        if (isset($data['limit'])) {
+            
+            if ($data['limit'] < 1) {
+                $data['limit'] = 5;
+            }
+
+            $sql .= " LIMIT " . (int)$data['limit'];
+        }
+
+        $query = $this->db->query($sql);
+
+        return $query->rows;
+    }
 
 }

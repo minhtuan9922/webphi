@@ -1,51 +1,141 @@
 <footer>
-    <div class="container">
-        <div class="row"> {% if informations %}
-            <div class="col-sm-3">
-                <h5>{{ text_information }}</h5>
-                <ul class="list-unstyled">
-                    {% for information in informations %}
-                    <li><a href="{{ information.href }}">{{ information.title }}</a></li>
-                    {% endfor %}
-                </ul>
+    <div class="main-footer">
+        <div class="container-fluid">
+            <div class="row">
+                {# {% if informations %}
+                <div class="col-sm-3">
+                    <h5>{{ text_information }}</h5>
+                    <ul class="list-unstyled">
+                        {% for information in informations %}
+                        <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                <div class="col-sm-3">
+                    <h5>{{ text_service }}</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+                        <li><a href="{{ return }}">{{ text_return }}</a></li>
+                        <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>{{ text_extra }}</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
+                        <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
+                        <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
+                        <li><a href="{{ special }}">{{ text_special }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>{{ text_account }}</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ account }}">{{ text_account }}</a></li>
+                        <li><a href="{{ order }}">{{ text_order }}</a></li>
+                        <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+                        <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+                    </ul>
+                </div> #}
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="footer-title">
+                        <h4>{{text_about_us}}</h4>
+                    </div>
+                    <div class="footer-content">
+                        <p>{{text_about_footer}}</p>
+                        <img src="image/logo-bct.png" alt="" width="150px">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <div class="footer-title">
+                        <h4>{{text_link}}</h4>
+                    </div>
+                    <div class="footer-content menubottom">
+                        <ul>
+                            <li><a href="index.php?route=product/search">Tìm kiếm</a></li>
+                            <li><a href="index.php?route=information/information&information_id=4">{{text_about_us}}</a></li>
+                            <li><a href="">{{text_return_policy}}</a></li>
+                            <li><a href="">{{text_privacy_policy}}</a></li>
+                            <li><a href="">{{text_terms_of_service}}</a></li>
+                            <li><a href="{{ contact }}">{{text_contact}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="footer-title">
+                        <h4>Thông tin liên hệ</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="contact"><i class="fa fa-address-card"></i> {{ owner }}</li>
+                            <li class="contact map"><i class="fa fa-map-marker"></i> {{ address }}</li>
+                            <li class="contact phone"><a href="tel:{{ telephone }}"><i class="fa fa-phone-square"></i> {{ telephone }}</a></li>
+                            <li class="contact"><i class="fa fa-envelope"></i> {{ email }}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="footer-title">
+                        <h4>Fanpage</h4>
+                    </div>
+                    <div class="footer-content">
+                        <div class="fb-page" data-href="https://www.facebook.com/BanLinhDanOng2020/" data-tabs="timeline" data-width="" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BanLinhDanOng2020/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BanLinhDanOng2020/">ShopDoChoiNguoilonTpHoChiMinh</a></blockquote></div>
+                    </div>
+                </div>
             </div>
-            {% endif %}
-            <div class="col-sm-3">
-                <h5>{{ text_service }}</h5>
-                <ul class="list-unstyled">
-                    <li><a href="{{ contact }}">{{ text_contact }}</a></li>
-                    <li><a href="{{ return }}">{{ text_return }}</a></li>
-                    <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>{{ text_extra }}</h5>
-                <ul class="list-unstyled">
-                    <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
-                    <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
-                    <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
-                    <li><a href="{{ special }}">{{ text_special }}</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>{{ text_account }}</h5>
-                <ul class="list-unstyled">
-                    <li><a href="{{ account }}">{{ text_account }}</a></li>
-                    <li><a href="{{ order }}">{{ text_order }}</a></li>
-                    <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
-                    <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
-                </ul>
-            </div>
+            <!-- <hr>
+            <p>{{ powered }}</p> -->
         </div>
-        {# <hr>
-        <p>{{ powered }}</p> #}
+    </div>
+    <div class="bottom-footer text-center">
+        <p>© 2019 <a href="https://keotinhyeu18.com/">keotinhyeu18.com</a> All rights reserved</p>
     </div>
 </footer>
-{% for script in scripts %} 
-<script src="{{ script }}" type="text/javascript"></script> 
-{% endfor %} 
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-</body></html>
+<div id="pho">     
+    <div class="quick-alo-phone" id="quick-alo-phoneIcon"> 
+        <a href="tel:{{ telephone }}" >
+            <div class="quick-alo-ph-circle"></div>
+            <div class="quick-alo-ph-circle-fill"></div>
+            <div class="quick-alo-ph-img-circle"></div>
+        </a>
+    </div>    
+
+  </div>
+</div>
+{{ sidebar }}
+<div id="site-overlay" class="site-overlay"></div>
+<script>
+    $('#site-overlay').click(function() {
+        $(this).removeClass('active');
+        $('.main-body').removeClass('sidebar-move');
+        $('#site-nav--mobile').removeClass('active');
+    });
+    $('#site-close-handle').click(function() { console.log(123);
+        $('#site-overlay').removeClass('active');
+        $('.main-body').removeClass('sidebar-move');
+        $('#site-nav--mobile').removeClass('active');
+    });
+    $('#button_search').click(function() {
+        $('#site-overlay').addClass('active');
+        $('.main-body').addClass('sidebar-move');
+        $('#site-nav--mobile').addClass('active');
+        $('#site-cart').hide();
+        $('#search').show();
+    });
+    $('#button_cart').click(function() {
+        $('#site-overlay').addClass('active');
+        $('.main-body').addClass('sidebar-move');
+        $('#site-nav--mobile').addClass('active');
+        $('#site-cart').show();
+        $('#search').hide();
+    });
+</script>
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=458308631171598&autoLogAppEvents=1"></script>
+
+
+</body>
+</html>

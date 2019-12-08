@@ -68,7 +68,9 @@ class ControllerAccountAccount extends Controller {
 		$data['recurring'] = $this->url->link('account/recurring', '', true);
 		
 		$this->load->model('account/customer');
-		
+		$this->load->language('account/edit');
+		$customer_info = $this->model_account_customer->getCustomer($this->customer->getId());
+		$data['customer_info'] = $customer_info;
 		$affiliate_info = $this->model_account_customer->getAffiliate($this->customer->getId());
 		
 		if (!$affiliate_info) {	

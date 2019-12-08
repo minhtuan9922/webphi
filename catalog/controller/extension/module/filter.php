@@ -66,7 +66,6 @@ class ControllerExtensionModuleFilter extends Controller {
 						'filter'          => $childen_data
 					);
 				}
-
 				return $this->load->view('extension/module/filter', $data);
 			}
 		}

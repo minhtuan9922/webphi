@@ -1,0 +1,44 @@
+<div class="menu-blog slidebar-menu-blog">
+	<div class="group-menu">
+		<div class="sidebarblog-title title_block" data-toggle="collapse" data-target="#list-news-latest">
+			<h2>{{latest_blogs_title}}</h2>
+		</div>
+		<div class="list-news-latest layered" id="list-news-latest">
+			<div class="layered-content">
+				{% for post in posts %}
+				<div class="item-article clearfix">
+					<div class="post-image">
+						<a href="{{post.href}}"><img src="{{post.images}}" alt="{{post.title}}"></a>
+					</div>
+
+					<div class="post-content">
+						<h3>
+							<a href="{{post.href}}">{{post.title}}</a>
+						</h3>
+						<span class="short_description">
+							{{post.short_description}}
+						</span>
+
+					</div>
+				</div>
+
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function() {
+		var win_width = $(window).width();
+		win_resize();
+		$(window).resize(function() {
+			win_width = $(window).width();
+			win_resize();
+		});
+		function win_resize() {
+			if(win_width < 768) {
+				$('#list-news-latest').addClass('collapse');
+			}
+		}
+	});
+</script>

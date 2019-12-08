@@ -20,7 +20,7 @@ class ControllerExtensionModuleAccount extends Controller {
 		$data['transaction'] = $this->url->link('account/transaction', '', true);
 		$data['newsletter'] = $this->url->link('account/newsletter', '', true);
 		$data['recurring'] = $this->url->link('account/recurring', '', true);
-
+		$data['my_account_title'] = $this->language->get('my_account_title');
 		return $this->load->view('extension/module/account', $data);
 	}
 }

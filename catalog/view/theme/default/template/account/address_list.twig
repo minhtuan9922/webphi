@@ -1,5 +1,6 @@
 {{ header }}
-<div id="account-address" class="container">
+<div class="row">
+<div id="account-address" class="container-fluid content-full">
   <ul class="breadcrumb">
     {% for breadcrumb in breadcrumbs %}
     <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
@@ -11,7 +12,7 @@
   {% if error_warning %}
   <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
   {% endif %}
-  <div class="row">{{ column_left }}
+  <div class="">{{ column_left }}
     {% if column_left and column_right %}
     {% set class = 'col-sm-6' %}
     {% elseif column_left or column_right %}
@@ -36,10 +37,12 @@
       <p>{{ text_empty }}</p>
       {% endif %}
       <div class="buttons clearfix">
-        <div class="pull-left"><a href="{{ back }}" class="btn btn-default">{{ button_back }}</a></div>
+        <div class="pull-left"><a href="{{ back }}" class="btn btn-primary">{{ button_back }}</a></div>
         <div class="pull-right"><a href="{{ add }}" class="btn btn-primary">{{ button_new_address }}</a></div>
       </div>
-      {{ content_bottom }}</div>
+      </div>
     {{ column_right }}</div>
 </div>
+</div>
+{{ content_bottom }}
 {{ footer }}

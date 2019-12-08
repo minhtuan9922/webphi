@@ -32,7 +32,7 @@ $_['text_payment_description'] 	              = '%s every %d %s(s) for %d paymen
 $_['text_payment_until_canceled_description'] = '%s every %d %s(s) until canceled';
 
 $_['text_points']            = 'Điểm thưởng: %s';
-$_['text_items']      	     = '%s sản phẩm - %s';
+$_['text_items']      	     = '%s';
 $_['text_next']              = 'Bạn muốn làm gì tiếp theo?';
 $_['text_next_choice']       = 'Chọn nếu bạn muốn sử dụng mã giảm giá, điểm thưởng hoặc bạn muốn ước tính phí vận chuyển.';
 $_['text_use_coupon']        = 'Dùng mã giảm giá';

@@ -1,0 +1,64 @@
+<div class="top-footer">
+	<div class="container">
+		<div class="col-sm-12 col-md-8">
+			<div class="pav-newsletter {{ prefix }} {{layout}} pav-newsletter newsletter" id="newsletter_{{ id }}" data-mode="{{ mode }}">
+					<form  method="post" action="{{ action }}" class="formNewLestter newsletter-bg" {% if banner is not empty%} style="background-image: url('{{ banner }}')" {% endif %}>
+						<div class="inner {% if layout == "layout1" %}row{% endif %}">
+							{% if layout == "layout1" %}
+							<div class="col-md-6 col-sm-6">
+								{% if name %}
+									<h3 >{{ name }}</h3>
+								{% endif %}
+								<div class="description-top">
+									{% if description and description != '<p><br></p>' %}
+									<p>{{ description }}</p>
+									{% endif %}
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="form-group">
+									<input type="text" class="form-control input-md inputNew" {% if customer_email is not defined %} onblur="javascript:if(this.value=='')this.value='{{ default_input_text }}';" onfocus="javascript:if(this.value=='{{ default_input_text }}')this.value='';"{% endif %} value="{{ customer_email? customer_email : default_input_text }}" size="18" name="email">
+								</div>
+								<div class="button-submit">
+									<button type="submit" name="submitNewsletter" class="btn btn-danger">{{ button_subscribe }}</button>
+								</div>
+								<input type="hidden" value="1" name="action">
+								<div class="valid"></div>
+								<div class="description-bottom">
+									{{ social }}
+								</div>
+							</div>
+							{% else %}
+								{% if name %}
+									<div class="title-newsletter"><h4 ><img src="catalog/view/theme/default/image/icon_footer.png" alt="">{{ name }}</h4></div>
+								{% endif %}
+								
+								<div class="form-newsletter">
+									<div class="input-group">
+	                                    <input type="text" class="form-control input-md inputNew" {% if customer_email is not defined %} onblur="javascript:if(this.value=='')this.value='{{ default_input_text }}';" onfocus="javascript:if(this.value=='{{ default_input_text }}')this.value='';"{% endif %} value="{{ customer_email? customer_email : default_input_text }}" size="18" name="email" >
+	                                    <span class="input-group-btn">
+	                                        <button type="submit" name="submitNewsletter" class="btn btn-newsletter">{{ button_subscribe }}</button>
+	                                    </span>
+	                                </div>
+									<input type="hidden" value="1" name="action">
+									<div class="valid"></div>
+								</div>
+							{% endif %}
+						</div>
+					</form>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<p class="number-phone">
+                <i class="fa fa-phone "></i>
+                {{ entry_support }} &nbsp;<a href="tel:0325369181">0325369181</a>
+            </p>
+		</div>
+	</div>
+</div>
+
+<script><!--
+$("#newsletter_{{ id }}").pavoNewsletter({
+    message: '{{ valid_email }}'
+});//.work(  '{{ valid_email }}' );
+--></script>

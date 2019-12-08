@@ -1,6 +1,7 @@
 <?php
 // Text
-$_['text_items']    = '%s';
+$_['text_items']    = '%s sản phẩm - %s';
+$_['text_items1']    = '%s';
 $_['text_empty']    = 'Không có sản phẩm trong giỏ hàng!';
 $_['text_cart']     = 'Xem chi tiết giỏ hàng';
 $_['text_checkout'] = 'Thanh toán';
