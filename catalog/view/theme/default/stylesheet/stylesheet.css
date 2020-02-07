@@ -2613,3 +2613,9 @@ footer .footer-title h4:before {
 .caret-a::before {
 	border-bottom: none !important;
 }
+@media(min-width: 992px) {
+	.product-content-img {
+		position: sticky;
+		top: 100px;
+	}
+}

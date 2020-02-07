@@ -75,6 +75,11 @@
           {% endif %}
           <div class="{{ class }}">
             <h1>{{ heading_title }}</h1>
+            {% if manufacturer %}
+            <ul class="list-unstyled">
+              <li>{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>
+            </ul>
+            {% endif %}
             {% if price %}
             <ul class="list-unstyled">
               {% if not special %}

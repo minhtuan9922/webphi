@@ -122,3 +122,4 @@
  in C:\xampp\htdocs\webbanhang\system\library\db\mysqli.php on line 7
 2019-12-02 11:15:08 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\webbanhang\system\library\db\mysqli.php on line 10
 2019-12-02 11:15:08 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\webbanhang\system\library\db\mysqli.php on line 10
+2020-02-07 15:53:19 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\webphi\system\library\mail\mail.php on line 77

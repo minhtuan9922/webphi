@@ -3,7 +3,7 @@
 $_['heading_title']     = 'Tìm thương hiệu ưu thích';
 
 // Text
-$_['text_brand']        = 'Thương hiện';
+$_['text_brand']        = 'Thương hiệu';
 $_['text_index']        = 'Danh sách thương hiệu:';
 $_['text_error']        = 'Không tồn tại!';
 $_['text_empty']        = 'Không có thương hiệu nào trong danh sách.';
