@@ -253,6 +253,18 @@ class ControllerSettingSetting extends Controller {
 			$data['config_telephone'] = $this->config->get('config_telephone');
 		}
 		
+		if (isset($this->request->post['config_zalo'])) {
+			$data['config_zalo'] = $this->request->post['config_zalo'];
+		} else {
+			$data['config_zalo'] = $this->config->get('config_zalo');
+		}
+		
+		if (isset($this->request->post['config_facebook'])) {
+			$data['config_facebook'] = $this->request->post['config_facebook'];
+		} else {
+			$data['config_facebook'] = $this->config->get('config_facebook');
+		}
+		
 		if (isset($this->request->post['config_fax'])) {
 			$data['config_fax'] = $this->request->post['config_fax'];
 		} else {

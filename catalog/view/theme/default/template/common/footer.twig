@@ -92,7 +92,7 @@
         <p>© 2019 <a href="https://keotinhyeu18.com/">keotinhyeu18.com</a> All rights reserved</p>
     </div>
 </footer>
-<div id="pho">     
+{# <div id="pho">     
     <div class="quick-alo-phone" id="quick-alo-phoneIcon"> 
         <a href="tel:{{ telephone }}" >
             <div class="quick-alo-ph-circle"></div>
@@ -100,8 +100,23 @@
             <div class="quick-alo-ph-img-circle"></div>
         </a>
     </div>    
-
-  </div>
+</div> #}
+<div class="contact-icon">
+    <a href="{{ facebook }}" target="_blank" class="icon-item icon-facebook">
+        <img src="catalog/view/theme/default/image/ic-imess-fb.png" alt="" class="show-desktop">
+        <img src="catalog/view/theme/default/image/ic-mesenger.png" alt="" class="show-mobile">
+        Chat Facebook
+    </a>
+    <a href="https://zalo.me/{{ zalo }}" target="_blank" class="icon-item icon-zalo">
+        <img src="catalog/view/theme/default/image/ic-zalo.png" alt="" class="show-desktop">
+        <img src="catalog/view/theme/default/image/ic-zalo (1).png" alt="" class="show-mobile">
+        Chat Zalo
+    </a>
+    <a href="tel:{{ telephone }}" target="_blank" class="icon-item icon-phone">
+        <img src="catalog/view/theme/default/image/ic-call.png" alt="" class="show-desktop">
+        <img src="catalog/view/theme/default/image/ic-phone.png" alt="" class="show-mobile">
+        {{ telephone }}
+    </a>
 </div>
 {{ sidebar }}
 <div id="site-overlay" class="site-overlay"></div>

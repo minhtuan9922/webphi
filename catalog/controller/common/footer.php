@@ -32,6 +32,8 @@ class ControllerCommonFooter extends Controller {
 		$data['address'] = $this->config->get('config_address');
 		$data['owner'] = $this->config->get('config_owner');
 		$data['telephone'] = $this->config->get('config_telephone');
+		$data['zalo'] = $this->config->get('config_zalo');
+		$data['facebook'] = $this->config->get('config_facebook');
 		$data['fax'] = $this->config->get('config_fax');
 		$data['email'] = $this->config->get('config_email');
 		$data['sidebar'] = $this->load->controller('common/sidebar');

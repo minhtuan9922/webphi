@@ -1,18 +1,18 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/webphi/admin/');
-define('HTTP_CATALOG', 'http://localhost/webphi/');
+define('HTTP_SERVER', 'http://'. $_SERVER['HTTP_HOST'] .'/webphi/admin/');
+define('HTTP_CATALOG', 'http://'. $_SERVER['HTTP_HOST'] .'/webphi/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/webphi/admin/');
-define('HTTPS_CATALOG', 'http://localhost/webphi/');
+define('HTTPS_SERVER', 'http://'. $_SERVER['HTTP_HOST'] .'/webphi/admin/');
+define('HTTPS_CATALOG', 'http://'. $_SERVER['HTTP_HOST'] .'/webphi/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/webphi/admin/');
-define('DIR_SYSTEM', 'C:/xampp/htdocs/webphi/system/');
-define('DIR_IMAGE', 'C:/xampp/htdocs/webphi/image/');
+define('DIR_APPLICATION', $_SERVER['DOCUMENT_ROOT'] . '/webphi/admin/');
+define('DIR_SYSTEM', $_SERVER['DOCUMENT_ROOT'] . '/webphi/system/');
+define('DIR_IMAGE', $_SERVER['DOCUMENT_ROOT'] . '/webphi/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
-define('DIR_CATALOG', 'C:/xampp/htdocs/webphi/catalog/');
+define('DIR_CATALOG', $_SERVER['DOCUMENT_ROOT'] . '/webphi/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
