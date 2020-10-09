@@ -1,0 +1,357 @@
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:49:42 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:08 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:56:17 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:10 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:57:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fopen(/home/keoti770/public_html/storage/logs/error.log): failed to open stream: No such file or directory in /home/keoti770/public_html/system/library/log.php on line 22
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[16-Nov-2019 10:58:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in /home/keoti770/public_html/system/library/log.php on line 31
+[31-Jan-2020 06:25:22 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '1'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('1'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[31-Jan-2020 06:31:03 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '1'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('1'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[18-Feb-2020 05:42:44 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '1'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('1'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[18-Feb-2020 05:46:01 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '1'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('1'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[08-Mar-2020 18:15:01 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '8'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('8'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[09-Mar-2020 05:23:00 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '8'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('8'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[17-Mar-2020 11:37:14 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0=1' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = ''0=1' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory(''0=1')
+#3 /home/keoti770/public_html/system/engi in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[06-Apr-2020 06:00:14 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '3'[0]' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('3'[0]')
+#3 /home/keoti770/public_html/system/en in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[09-Apr-2020 22:50:19 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '7'[0]' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('7'[0]')
+#3 /home/keoti770/public_html/system/en in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[29-May-2020 03:31:09 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '5'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('5'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40
+[24-Jul-2020 17:57:31 UTC] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' AND c2s.store_id = '0' AND c.status = '1'' at line 1<br />Error No: 1064<br />SELECT DISTINCT * FROM oc_bm_category c LEFT JOIN oc_bm_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_bm_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.category_id = '5'' AND cd.language_id = '2' AND c2s.store_id = '0' AND c.status = '1' in /home/keoti770/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(45): DB\MySQLi->query('SELECT DISTINCT...')
+#1 /home/keoti770/public_html/catalog/model/extension/d_blog_module/category.php(13): DB->query('SELECT DISTINCT...')
+#2 /home/keoti770/public_html/storage/modification/system/engine/loader.php(251): ModelExtensionDBlogModuleCategory->getCategory('5'')
+#3 /home/keoti770/public_html/system/engine/proxy.php(47): Loader->{clos in /home/keoti770/public_html/system/library/db/mysqli.php on line 40

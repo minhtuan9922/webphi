@@ -1,0 +1,43 @@
+<div class="menu-blog slidebar-menu-blog">
+	<div class="group-menu">
+		<div class="sidebarblog-title title_block" data-toggle="collapse" data-target="#category_blog">
+			<h2>{{category_blogs_title}}</h2>
+		</div>
+		<div class="layered layered-category" id="category_blog">
+			<div class="layered-content">
+				<ul class="tree-menu">
+					{% for category in categories %}
+					{% if category.category_id == category_id %}
+					<li><a href="{{ category.href }}" class=" active">{{ category.name }}</a> </li>
+					{% if category.children %}
+					{% for child in category.children %}
+					{% if child.category_id == child_id %}
+					<li><a href="{{ child.href }}" class=" active">&nbsp;&nbsp;&nbsp;- {{ child.name }}</a> </li>
+					{% else %}
+					<li><a href="{{ child.href }}" class="">&nbsp;&nbsp;&nbsp;- {{ child.name }}</a></li>
+					{% endif %}
+					{% endfor %}
+					{% endif %}
+					{% else %} <li><a href="{{ category.href }}" class="">{{ category.name }}</a></li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function() {
+		var win_width = $(window).width();
+		win_resize();
+		$(window).resize(function() {
+			win_width = $(window).width();
+			win_resize();
+		});
+		function win_resize() {
+			if(win_width < 768) {
+				$('#category_blog').addClass('collapse');
+			}
+		}
+	});
+</script>

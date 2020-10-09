@@ -1,0 +1,28 @@
+<div class="menu-blog slidebar-menu-blog">
+  <div class="group-menu">
+    <div class="sidebarblog-title title_block">
+      <h2>{{my_account_title}}</h2>
+    </div>
+    <div class="layered layered-category">
+      <div class="layered-content">
+        <ul class="tree-menu">
+            {% if not logged %}
+            <li><a href="{{ login }}" >{{ text_login }}</a></li>
+            <li><a href="{{ register }}" >{{ text_register }}</a> </li>
+            <li><a href="{{ forgotten }}" >{{ text_forgotten }}</a></li>
+            {% endif %}
+            <li><a href="{{ account }}" >{{ text_account }}</a></li>
+            {% if logged %}
+            <li><a href="{{ edit }}" >{{ text_edit }}</a></li> 
+            <li><a href="{{ password }}" >{{ text_password }}</a></li>
+            {% endif %}
+            <li><a href="{{ address }}" >{{ text_address }}</a> </li>
+            <li><a href="{{ order }}" >{{ text_order }}</a> </li>
+            {% if logged %}
+            <li><a href="{{ logout }}" >{{ text_logout }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

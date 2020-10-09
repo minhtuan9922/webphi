@@ -1,0 +1,17 @@
+[08-Dec-2019 06:35:55 UTC] PHP Fatal error:  Uncaught Exception: Undefined mixin make-grid-columns: failed at `@include make-grid-columns;` /home/keoti770/public_html/admin/view/stylesheet/sass/bootstrap/_grid.scss on line 49 in /home/keoti770/public_html/storage/vendor/scss.inc.php:4051
+Stack trace:
+#0 /home/keoti770/public_html/storage/vendor/scss.inc.php(2491): scss_parser->throwParseError('Undefined mixin...', 788)
+#1 /home/keoti770/public_html/storage/vendor/scss.inc.php(782): scssc->throwError('Undefined mixin...')
+#2 /home/keoti770/public_html/storage/vendor/scss.inc.php(511): scssc->compileChild(Array, Object(stdClass))
+#3 /home/keoti770/public_html/storage/vendor/scss.inc.php(1662): scssc->compileChildren(Array, Object(stdClass))
+#4 /home/keoti770/public_html/storage/vendor/scss.inc.php(608): scssc->importFile('/home/keoti770/...', Object(stdClass))
+#5 /home/keoti770/public_html/storage/vendor/scss.inc.php(639): scssc->compileImport(Array, Object(stdClass))
+#6 /home/keoti770/public_html/storage/vendor/scss.inc.php(511): scssc->compileChild(Arra in /home/keoti770/public_html/storage/vendor/scss.inc.php on line 4051
+[11-Apr-2020 17:52:30 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/keoti770/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/keoti770/public_html/system/library/db.php(31): DB\MySQLi->__construct('localhost', 'keoti770', '8GU5nwkEAx14', 'keoti770_keotin...', '3306')
+#1 /home/keoti770/public_html/system/framework.php(80): DB->__construct('mysqli', 'localhost', 'keoti770', '8GU5nwkEAx14', 'keoti770_keotin...', '3306')
+#2 /home/keoti770/public_html/system/startup.php(104): require_once('/home/keoti770/...')
+#3 /home/keoti770/public_html/admin/index.php(19): start('admin')
+#4 {main}
+  thrown in /home/keoti770/public_html/system/library/db/mysqli.php on line 10
